@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1035419c0fee0454bb12f649d8df87b6, type: 2}
 --- !u!4 &8101595 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6aab193b7693b5e4c9741f1917d2987c, type: 3}
@@ -1349,7 +1349,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &332523286 stripped
 GameObject:
@@ -1450,7 +1450,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1348922446100260, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
       propertyPath: m_TagString
@@ -4168,7 +4168,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1889412749500658, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
       propertyPath: m_Name
@@ -7317,7 +7317,7 @@ Transform:
   m_GameObject: {fileID: 1482410450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -258.1804, y: 3.4703624, z: -245.0199}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.37, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 803927414}
   m_RootOrder: 7
@@ -9942,7 +9942,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9962,9 +9962,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - EnemiesPerWave: 5
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 15
     Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
   - EnemiesPerWave: 20

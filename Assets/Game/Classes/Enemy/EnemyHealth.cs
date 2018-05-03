@@ -57,7 +57,7 @@ public class EnemyHealth : MonoBehaviour
     public void Death()
     {
         _spawnManager.enemyDefeated();
-        //Instantiate(Gold, transform.position, Quaternion.identity);
+        
 
         if (Random.Range(0f, 1f) <= dropRate)
         {
