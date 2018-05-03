@@ -48,15 +48,25 @@ public class PlayerHealth : movement {
         damaged = false;
     }
 
+<<<<<<< HEAD
+	//void OnCollisionEnter(Collision collision)
+	//{
+	//	if (collision.transform.name == "Brute Warrior(Clone)")
+	//	{
+	//		TakeDamage(currentHealth);
+	//	}
+	//}
+=======
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.name == "Brute Warrior(Clone)")
+        if (collision.transform.name == "Brute Warrior(Clone)" || collision.transform.name == "Cube(Clone)")
         {
             TakeDamage(currentHealth);
         }
     }
+>>>>>>> 5e948071eb4ee208a3dc1005f3b37106873c4787
 
-    public void TakeDamage(float damage)
+	public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         healthSlider.value = currentHealth;
