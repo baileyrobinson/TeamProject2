@@ -1,21 +1,20 @@
 fileFormatVersion: 2
-guid: 4084fb7ed632ad747a3255473b7b8d19
-timeCreated: 1525383745
+guid: 52842be4b811c2f4e8ea3271fa2efc10
+timeCreated: 1525387041
 licenseType: Pro
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: joint1
-    100004: joint2
+    100000: joint1
+    100002: joint2
+    100004: //RootNode
     100006: pCube1
-    400000: //RootNode
-    400002: joint1
-    400004: joint2
+    400000: joint1
+    400002: joint2
+    400004: //RootNode
     400006: pCube1
     2100000: lambert1
     4300000: pCube1
-    7400000: Take 001
     9500000: //RootNode
     13700000: pCube1
   externalObjects: {}
