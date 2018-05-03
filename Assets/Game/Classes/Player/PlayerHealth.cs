@@ -50,7 +50,7 @@ public class PlayerHealth : movement {
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.name == "Brute Warrior(Clone)")
+        if (collision.transform.name == "Brute Warrior(Clone)" || collision.transform.name == "Cube(Clone)")
         {
             TakeDamage(currentHealth);
         }
