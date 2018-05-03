@@ -6,6 +6,8 @@ public class NewEnemyAttack : MonoBehaviour {
 	Animator _animator;
 	GameObject _player;
 	private bool _collidedWithPlayer;
+	EnemyHealth target;
+	int damage = 1;
 	// Use this for initialization
 	void Start () {
 		_player = GameObject.FindGameObjectWithTag("Player");
