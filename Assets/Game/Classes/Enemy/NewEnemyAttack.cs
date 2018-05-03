@@ -35,15 +35,6 @@ public class NewEnemyAttack : MonoBehaviour {
         print("enter collided with _player");
     }
  
-    //void OnCollisionExit(Collision other)
-    //{
-    //    if (other.gameObject == _player)
-    //    {
-    //        _collidedWithPlayer = false;
-    //    }
-    //    print("exit collided with _player");
-    //}
- 
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject == _player)
