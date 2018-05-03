@@ -33,8 +33,8 @@ public class Raycast : UpgradeButton
                 BlackSmithMenu.SetActive(true);
                 Debug.Log("I pressed E while aiming at an object!");
             }
-
         }
-    }
 
+        
+    }
 }

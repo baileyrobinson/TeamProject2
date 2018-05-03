@@ -22,7 +22,7 @@ public class PlayerInventory : MonoBehaviour {
     {
         if (collision.transform.tag == "Gold")
         {
-            Money += 100;
+            Money += 10000;
             Destroy(collision.gameObject);
            // Destroy(collision.gameObject);
         }
