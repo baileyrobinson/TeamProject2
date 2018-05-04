@@ -1256,8 +1256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 81}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 153, y: 81}
+  m_SizeDelta: {x: 320, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &334984747
 MonoBehaviour:
@@ -1291,7 +1291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CONGRATULATIONS
+  m_Text: CONGRATULATIONS YOU WON
 --- !u!222 &334984748
 CanvasRenderer:
   m_ObjectHideFlags: 0

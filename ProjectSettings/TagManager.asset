@@ -12,6 +12,10 @@ TagManager:
   - Sword
   - spawnManager
   - Healer
+  - Portal
+  - Portal1
+  - Portal2
+  - Portal3
   layers:
   - Default
   - TransparentFX
