@@ -15,7 +15,7 @@ public class StartButton : MonoBehaviour {
 
     void TaskOnClick()
     {
-        Application.LoadLevel("GameScene");
+        Application.LoadLevel("GameScene1");
     }
 
 }
