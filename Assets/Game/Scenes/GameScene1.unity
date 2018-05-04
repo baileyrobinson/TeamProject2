@@ -1411,7 +1411,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &332523286 stripped
 GameObject:
@@ -1475,72 +1475,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.3391252, y: 3.0454283, z: 2.5722752}
   m_Center: {x: 0.18942852, y: -0.25005755, z: 0.040044025}
---- !u!1001 &352404735
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -76.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 61.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.70388496
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.710314
-      objectReference: {fileID: 0}
-    - target: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1348922446100260, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-      propertyPath: m_TagString
-      value: Gold
-      objectReference: {fileID: 0}
-    - target: {fileID: 65265592849758682, guid: 833ee944320dfe84da9f4e06549c9551,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 65265592849758682, guid: 833ee944320dfe84da9f4e06549c9551,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 65265592849758682, guid: 833ee944320dfe84da9f4e06549c9551,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 65265592849758682, guid: 833ee944320dfe84da9f4e06549c9551,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
-  m_IsPrefabParent: 0
 --- !u!4 &352870436 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6aab193b7693b5e4c9741f1917d2987c, type: 3}
@@ -3977,96 +3911,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6aab193b7693b5e4c9741f1917d2987c, type: 3}
-  m_IsPrefabParent: 0
---- !u!1001 &834590278
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -76
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 64.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.18943165
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.9818939
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139484817318342, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1889412749500658, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_Name
-      value: Material (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1889412749500658, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
-      propertyPath: m_TagString
-      value: Material
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Center.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 65430743819800314, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23617862032255088, guid: daa3da0762be3024d9d2d87bb824d1e8,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ae86e9515378caa42b6ad36f9a97d70f, type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &844169628
 GameObject:
@@ -9927,7 +9771,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9951,206 +9795,26 @@ MonoBehaviour:
   - EnemiesPerWave: 10
     Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 15
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 20
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 25
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 30
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 35
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 40
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 45
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   - EnemiesPerWave: 50
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 55
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
-  - EnemiesPerWave: 10
-    Enemy: {fileID: 1936183714881644, guid: c31b5ab56a025b641a5dbe9823507fde, type: 2}
+    Enemy: {fileID: 1244131937994254, guid: 7806141056c2b304da4517a189883c20, type: 2}
   SpawnPoints:
   - {fileID: 1922745820}
   - {fileID: 1826310725}
   - {fileID: 1435296352}
-  SpawnTime: 2
+  SpawnTime: 3
   enemiesLeft: 0
   timeLeft: 5
 --- !u!222 &2045886389
