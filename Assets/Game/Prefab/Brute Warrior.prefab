@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 114480721780257942}
   m_Layer: 0
   m_Name: Brute Warrior
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1651,6 +1651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 100
   enemy: {fileID: 1244131937994254}
+  sword: {fileID: 1797902788568406, guid: 78f7d9574f1f8e444b4e769ce126c466, type: 2}
   Gold: {fileID: 1348922446100260, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
   GoldSpawn: {fileID: 4164692003982776, guid: 833ee944320dfe84da9f4e06549c9551, type: 2}
   Material: {fileID: 1889412749500658, guid: daa3da0762be3024d9d2d87bb824d1e8, type: 2}

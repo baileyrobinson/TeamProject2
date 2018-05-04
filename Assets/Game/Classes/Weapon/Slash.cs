@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Slash : MonoBehaviour {
     Animator anim;
-    int slash = Animator.StringToHash("Slash");
+	GameObject _enemy;
+	private PlayerWeapon1 _hitPlayer;
+	int slash = Animator.StringToHash("Slash");
 
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+		_hitPlayer = GameObject.FindGameObjectWithTag("Sword").GetComponent<PlayerWeapon1> ();
+		anim = GetComponent<Animator>();
     }
 
 
@@ -18,6 +21,7 @@ public class Slash : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger(slash);
-        }
+			_hitPlayer.Attack();
+		}
     }
 }

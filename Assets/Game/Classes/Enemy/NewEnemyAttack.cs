@@ -23,7 +23,7 @@ public class NewEnemyAttack : MonoBehaviour {
 			_animator.SetBool("Moving", false);
 			_animator.Play("Attack1");
 		}
-        print("enter trigger with _player");
+        
     }
 
     void OnCollisionEnter(Collision other)
@@ -32,7 +32,7 @@ public class NewEnemyAttack : MonoBehaviour {
         {
             _collidedWithPlayer = true;
         }
-        print("enter collided with _player");
+        
     }
  
     void OnTriggerExit(Collider other)
@@ -43,13 +43,13 @@ public class NewEnemyAttack : MonoBehaviour {
 			//_collidedWithPlayer = false;
 			
 		}
-        print("exit trigger with _player");
+        
     }
     void Attack()
     {
         if (_collidedWithPlayer == true)
         {
-            print("player has been hit");
+            
 			_hitPlayer.TakeDamage(damage);
 
 		}

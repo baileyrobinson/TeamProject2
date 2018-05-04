@@ -10,7 +10,8 @@ public class EnemyHealth : MonoBehaviour
     public int startingHealth = 100;// The amount of health the player starts the game with.
     static public int currentHealth;
     public GameObject enemy;
-    public GameObject Gold;
+	public GameObject sword;
+	public GameObject Gold;
     public Transform GoldSpawn;
     public GameObject Material;
     public Transform MaterialSpawn;
@@ -48,6 +49,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int value)
     {
+		print("TAKING DAMAGE");
         currentHealth -= value;
         if (currentHealth <= 0)
         {
@@ -71,5 +73,13 @@ public class EnemyHealth : MonoBehaviour
         }
         GameObject.Destroy(enemy);
     }
-    
+	//void OnTriggerEnter(Collider other)
+
+	//{
+	//	if (other.gameObject == sword)
+	//	{
+	//		TakeDamage(50);
+	//	}
+
+	//}
 }
